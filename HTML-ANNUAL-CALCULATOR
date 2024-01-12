@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="f.css" />
+    <link rel="stylesheet" href="f.js" />
+</head>
+
+<body>
+    <main>
+        <p class="p">annual monthly hourly calculator in dollars</p>
+        <div id="tt" class="div1">
+            <p>input hourly wage</p>
+            <input type="number" name="calc" value="" placeholder="$" id="hourly" />
+            <input type="submit" placeholder="submit" id="submit" />
+        </div>
+        <div id="all">
+            <div id="div2" class="div2">
+                <p class="daily">daily wage</p>
+                <div id="amount">0</div>
+            </div>
+
+            <!--monthly-->
+            <div id="div3" class="div2">
+                <p class="daily">monthly wage</p>
+                <div id="Amount">0</div>
+            </div>
+
+            <!--yearly-->
+            <div id="div4" class="div2">
+                <p class="daily">yearly wage</p>
+                <div id="year-Amount">0</div>
+            </div>
+        </div>
+        <!--daily-->
+    </main>
+</body>
+<script src="f.js"></script>
+
+</html>
